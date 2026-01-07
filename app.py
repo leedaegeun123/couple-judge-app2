@@ -14,7 +14,8 @@ except Exception as e:
     st.stop()
 
 # 3. 모델 설정 (Gemini 1.5 Flash)
-model = genai.GenerativeModel("models/gemini-2.0-flash")
+model = genai.GenerativeModel("models/gemini-flash-latest")
+
 # 4. 화면 디자인 (제목)
 st.title("⚖️ 커플 싸움 AI 판사")
 st.write("누가 잘못했는지 AI가 3초 만에 판결해 드립니다.")
